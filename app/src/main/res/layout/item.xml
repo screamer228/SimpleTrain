@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -11,6 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Заголовок"
+        android:textStyle="bold"
         android:textAlignment="center"
         android:textSize="28sp"/>
 
@@ -24,7 +24,9 @@
         android:id="@+id/item_repeats"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:text="Повторения"
+        android:textStyle="bold"
         android:textAlignment="center"
         android:textSize="24sp"/>
 

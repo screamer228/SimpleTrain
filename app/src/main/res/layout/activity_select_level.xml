@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_select_level"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.simpletrain_kotlin.view.SelectLevelActivity">
+
+    <Button
+        android:id="@+id/button_easy_level"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_above="@id/button_medium_level"
+        android:backgroundTint="#E0B860"
+        android:foreground="@drawable/image_border"
+        android:text="ЛЁГКИЙ УРОВЕНЬ"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_medium_level"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_centerVertical="true"
+        android:backgroundTint="#E0B860"
+        android:foreground="@drawable/image_border"
+        android:text="СРЕДНИЙ УРОВЕНЬ"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_hard_level"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_below="@+id/button_medium_level"
+        android:backgroundTint="#E0B860"
+        android:foreground="@drawable/image_border"
+        android:text="СЛОЖНЫЙ УРОВЕНЬ"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
