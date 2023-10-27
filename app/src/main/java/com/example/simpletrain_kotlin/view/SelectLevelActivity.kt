@@ -7,14 +7,20 @@ import android.widget.Button
 import com.example.simpletrain_kotlin.R
 import com.example.simpletrain_kotlin.viewmodel.MuscleActivity
 
+
 class SelectLevelActivity : AppCompatActivity() {
+
+    private lateinit var buttonEasyLevel: Button
+    private lateinit var buttonMediumLevel: Button
+    private lateinit var buttonHardLevel: Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_select_level)
 
-        val buttonEasyLevel: Button = findViewById(R.id.button_easy_level)
-        val buttonMediumLevel: Button = findViewById(R.id.button_medium_level)
-        val buttonHardLevel: Button = findViewById(R.id.button_hard_level)
+        buttonEasyLevel = findViewById(R.id.button_easy_level)
+        buttonMediumLevel = findViewById(R.id.button_medium_level)
+        buttonHardLevel = findViewById(R.id.button_hard_level)
 
         buttonEasyLevel.setOnClickListener {
             val intent = Intent(this, MuscleActivity::class.java)

@@ -10,7 +10,6 @@ import com.bumptech.glide.Glide
 import com.example.simpletrain_kotlin.R
 import com.example.simpletrain_kotlin.data.ExerciseItem
 
-
 class MyAdapter(private val dataList: List<ExerciseItem>) :
     RecyclerView.Adapter<MyAdapter.ViewHolder>() {
 
