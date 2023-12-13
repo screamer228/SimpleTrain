@@ -1,6 +1,6 @@
-package com.example.simpletrain_kotlin.model
+package com.example.simpletrain_kotlin.data
 
-import com.example.simpletrain_kotlin.data.ExerciseItem
+import com.example.simpletrain_kotlin.ExerciseItem
 
 class Model {
     private val exerciseValue = mapOf(

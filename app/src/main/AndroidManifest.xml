@@ -15,16 +15,16 @@
         android:theme="@style/Theme.SimpleTrain_Kotlin"
         tools:targetApi="31">
         <activity
-            android:name=".view.SelectLevelActivity"
+            android:name=".SelectLevelActivity"
             android:exported="false" />
         <activity
-            android:name=".view.SelectMuscleActivity"
+            android:name=".SelectMuscleActivity"
             android:exported="false" />
         <activity
-            android:name=".viewmodel.MuscleActivity"
+            android:name=".MuscleActivity"
             android:exported="false" />
         <activity
-            android:name=".view.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

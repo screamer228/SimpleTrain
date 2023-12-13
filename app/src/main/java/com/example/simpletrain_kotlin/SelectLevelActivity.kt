@@ -1,12 +1,9 @@
-package com.example.simpletrain_kotlin.view
+package com.example.simpletrain_kotlin
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import com.example.simpletrain_kotlin.R
-import com.example.simpletrain_kotlin.viewmodel.MuscleActivity
-
 
 class SelectLevelActivity : AppCompatActivity() {
 
@@ -18,10 +15,18 @@ class SelectLevelActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_select_level)
 
+        initViews()
+        clickListeners()
+
+    }
+
+    private fun initViews(){
         buttonEasyLevel = findViewById(R.id.button_easy_level)
         buttonMediumLevel = findViewById(R.id.button_medium_level)
         buttonHardLevel = findViewById(R.id.button_hard_level)
+    }
 
+    private fun clickListeners(){
         buttonEasyLevel.setOnClickListener {
             val intent = Intent(this, MuscleActivity::class.java)
             val valueToPass = "keyEasyLevel"
@@ -40,6 +45,5 @@ class SelectLevelActivity : AppCompatActivity() {
             intent.putExtra("intentKey", valueToPass)
             startActivity(intent)
         }
-
     }
 }

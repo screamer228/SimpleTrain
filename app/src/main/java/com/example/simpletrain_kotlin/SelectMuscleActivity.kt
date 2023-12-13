@@ -1,25 +1,38 @@
-package com.example.simpletrain_kotlin.view
+package com.example.simpletrain_kotlin
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import androidx.core.content.ContextCompat.startActivity
-import com.example.simpletrain_kotlin.R
-import com.example.simpletrain_kotlin.viewmodel.MuscleActivity
 
 class SelectMuscleActivity : AppCompatActivity() {
+
+    private lateinit var buttonChest: Button
+    private lateinit var buttonBack: Button
+    private lateinit var buttonShoulders: Button
+    private lateinit var buttonBiceps: Button
+    private lateinit var buttonTriceps: Button
+    private lateinit var buttonLegs: Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_select_muscle)
 
-        val buttonChest: Button = findViewById(R.id.button_chest)
-        val buttonBack: Button = findViewById(R.id.button_back)
-        val buttonShoulders: Button = findViewById(R.id.button_shoulders)
-        val buttonBiceps: Button = findViewById(R.id.button_biceps)
-        val buttonTriceps: Button = findViewById(R.id.button_triceps)
-        val buttonLegs: Button = findViewById(R.id.button_legs)
+        initViews()
+        clickListeners()
 
+    }
+
+    private fun initViews(){
+        buttonChest = findViewById(R.id.button_chest)
+        buttonBack = findViewById(R.id.button_back)
+        buttonShoulders = findViewById(R.id.button_shoulders)
+        buttonBiceps = findViewById(R.id.button_biceps)
+        buttonTriceps = findViewById(R.id.button_triceps)
+        buttonLegs = findViewById(R.id.button_legs)
+    }
+
+    private fun clickListeners(){
         buttonChest.setOnClickListener {
             val intent = Intent(this, MuscleActivity::class.java)
             val keyToPass = "keyChest"

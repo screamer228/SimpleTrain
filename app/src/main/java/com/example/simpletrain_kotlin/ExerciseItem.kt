@@ -1,4 +1,4 @@
-package com.example.simpletrain_kotlin.data
+package com.example.simpletrain_kotlin
 
 data class ExerciseItem(
     val title: String,
