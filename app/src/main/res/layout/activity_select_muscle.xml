@@ -8,21 +8,22 @@
 
     <RelativeLayout
         android:id="@+id/activity_select_muscle"
-        android:background="@color/black"
-        android:importantForAccessibility="no"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:background="@color/black"
+        android:importantForAccessibility="no"
         tools:context="com.example.simpletrain_kotlin.SelectMuscleActivity">
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_chest"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_marginTop="5dp"
-            android:backgroundTint="#E0B860"
-            android:foreground="@drawable/image_border"
+            android:backgroundTint="@color/sand"
             android:text="ГРУДЬ"
             android:textColor="@color/black"
-            android:textSize="25sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <com.google.android.material.button.MaterialButton
@@ -30,11 +31,10 @@
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_below="@+id/button_chest"
-            android:backgroundTint="#E0B860"
-            android:foreground="@drawable/image_border"
+            android:backgroundTint="@color/sand"
             android:text="СПИНА"
             android:textColor="@color/black"
-            android:textSize="25sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <com.google.android.material.button.MaterialButton
@@ -42,11 +42,10 @@
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_below="@+id/button_back"
-            android:backgroundTint="#E0B860"
-            android:foreground="@drawable/image_border"
+            android:backgroundTint="@color/sand"
             android:text="ПЛЕЧИ"
             android:textColor="@color/black"
-            android:textSize="25sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <com.google.android.material.button.MaterialButton
@@ -54,11 +53,10 @@
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_below="@+id/button_shoulders"
-            android:backgroundTint="#E0B860"
-            android:foreground="@drawable/image_border"
+            android:backgroundTint="@color/sand"
             android:text="БИЦЕПС"
             android:textColor="@color/black"
-            android:textSize="25sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <com.google.android.material.button.MaterialButton
@@ -66,11 +64,10 @@
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:layout_below="@+id/button_biceps"
-            android:backgroundTint="#E0B860"
-            android:foreground="@drawable/image_border"
+            android:backgroundTint="@color/sand"
             android:text="ТРИЦЕПС"
             android:textColor="@color/black"
-            android:textSize="25sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <com.google.android.material.button.MaterialButton
@@ -79,11 +76,10 @@
             android:layout_height="130dp"
             android:layout_below="@+id/button_triceps"
             android:layout_marginBottom="5dp"
-            android:backgroundTint="#E0B860"
-            android:foreground="@drawable/image_border"
+            android:backgroundTint="@color/sand"
             android:text="НОГИ"
             android:textColor="@color/black"
-            android:textSize="25sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
     </RelativeLayout>
 </ScrollView>

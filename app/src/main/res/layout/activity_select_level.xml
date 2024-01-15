@@ -4,6 +4,7 @@
     android:id="@+id/activity_select_level"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="4dp"
     android:background="@color/black"
     tools:context="com.example.simpletrain_kotlin.SelectLevelActivity">
 
@@ -12,11 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="122dp"
         android:layout_above="@id/button_medium_level"
-        android:backgroundTint="#E0B860"
-        android:foreground="@drawable/image_border"
+        android:backgroundTint="@color/sand"
         android:text="ЛЁГКИЙ УРОВЕНЬ"
         android:textColor="@color/black"
-        android:textSize="25sp"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <com.google.android.material.button.MaterialButton
@@ -24,11 +24,10 @@
         android:layout_width="match_parent"
         android:layout_height="122dp"
         android:layout_centerVertical="true"
-        android:backgroundTint="#E0B860"
-        android:foreground="@drawable/image_border"
+        android:backgroundTint="@color/sand"
         android:text="СРЕДНИЙ УРОВЕНЬ"
         android:textColor="@color/black"
-        android:textSize="25sp"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <com.google.android.material.button.MaterialButton
@@ -36,10 +35,9 @@
         android:layout_width="match_parent"
         android:layout_height="122dp"
         android:layout_below="@+id/button_medium_level"
-        android:backgroundTint="#E0B860"
-        android:foreground="@drawable/image_border"
+        android:backgroundTint="@color/sand"
         android:text="СЛОЖНЫЙ УРОВЕНЬ"
         android:textColor="@color/black"
-        android:textSize="25sp"
+        android:textSize="24sp"
         android:textStyle="bold" />
 </RelativeLayout>
