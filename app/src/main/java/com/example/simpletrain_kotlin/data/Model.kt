@@ -68,7 +68,6 @@ class Model {
             ExerciseItem("Приведение локтя в бок. планке", "https://goo.su/euJk", "20-40"),
         )
     )
-
     private val toolbarTitleValue = mapOf(
         "keyChest" to "ГРУДЬ",
         "keyBack" to "СПИНА",
@@ -80,7 +79,6 @@ class Model {
         "keyMediumLevel" to "СРЕДНИЙ УРОВЕНЬ",
         "keyHardLevel" to "СЛОЖНЫЙ УРОВЕНЬ"
         )
-
     fun getExerciseValue(key: String): List<ExerciseItem>? {
         return exerciseValue[key]
     }

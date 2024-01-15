@@ -16,7 +16,6 @@ class MyAdapter(private val dataList: List<ExerciseItem>) :
         val itemImageView: ImageView = itemView.findViewById(R.id.item_image)
         val itemRepeatsTextView: TextView = itemView.findViewById(R.id.item_repeats)
     }
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item, parent, false)
         return ViewHolder(view)
