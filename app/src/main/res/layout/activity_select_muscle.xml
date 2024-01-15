@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:context="com.example.simpletrain_kotlin.SelectMuscleActivity">
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_chest"
             android:layout_width="match_parent"
             android:layout_height="130dp"
@@ -25,7 +25,7 @@
             android:textSize="25sp"
             android:textStyle="bold" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_back"
             android:layout_width="match_parent"
             android:layout_height="130dp"
@@ -37,7 +37,7 @@
             android:textSize="25sp"
             android:textStyle="bold" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_shoulders"
             android:layout_width="match_parent"
             android:layout_height="130dp"
@@ -49,7 +49,7 @@
             android:textSize="25sp"
             android:textStyle="bold" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_biceps"
             android:layout_width="match_parent"
             android:layout_height="130dp"
@@ -61,7 +61,7 @@
             android:textSize="25sp"
             android:textStyle="bold" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_triceps"
             android:layout_width="match_parent"
             android:layout_height="130dp"
@@ -73,7 +73,7 @@
             android:textSize="25sp"
             android:textStyle="bold" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_legs"
             android:layout_width="match_parent"
             android:layout_height="130dp"
@@ -86,5 +86,4 @@
             android:textSize="25sp"
             android:textStyle="bold" />
     </RelativeLayout>
-
 </ScrollView>

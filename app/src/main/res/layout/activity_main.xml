@@ -7,7 +7,7 @@
     android:background="@drawable/main_bg"
     tools:context=".MainActivity">
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/textChoice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,7 +19,7 @@
         android:textSize="23sp"
         android:textStyle="bold" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/leftButton"
         android:layout_width="190dp"
         android:layout_height="150dp"
@@ -32,7 +32,7 @@
         android:textSize="20sp"
         android:textStyle="bold"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/rightButton"
         android:layout_width="190dp"
         android:layout_height="150dp"
@@ -44,5 +44,4 @@
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"/>
-
 </RelativeLayout>

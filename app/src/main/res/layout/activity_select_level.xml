@@ -7,7 +7,7 @@
     android:background="@color/black"
     tools:context="com.example.simpletrain_kotlin.SelectLevelActivity">
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/button_easy_level"
         android:layout_width="match_parent"
         android:layout_height="122dp"
@@ -19,7 +19,7 @@
         android:textSize="25sp"
         android:textStyle="bold" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/button_medium_level"
         android:layout_width="match_parent"
         android:layout_height="122dp"
@@ -31,7 +31,7 @@
         android:textSize="25sp"
         android:textStyle="bold" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/button_hard_level"
         android:layout_width="match_parent"
         android:layout_height="122dp"
@@ -42,5 +42,4 @@
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold" />
-
 </RelativeLayout>
